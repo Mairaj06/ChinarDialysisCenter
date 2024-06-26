@@ -25,3 +25,4 @@ D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.DbAccess\obj\Debug\net6.0\r
 D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.DbAccess\bin\Debug\net6.0\ChinarDialysisCenter.Domain.dll
 D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.DbAccess\bin\Debug\net6.0\ChinarDialysisCenter.Domain.pdb
 D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.DbAccess\obj\Debug\net6.0\ChinarDi.057F3A88.Up2Date
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.DbAccess\obj\Debug\net6.0\ChinarDialysisCenter.DbAccess.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChinarDialysisCenter.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+253cfd1daefe3ff8f9f55df84177f94ad564b0d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChinarDialysisCenter.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChinarDialysisCenter.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

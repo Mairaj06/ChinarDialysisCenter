@@ -55,3 +55,16 @@ D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\Chi
 D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\ChinarDialysisCenter.Business.pdb
 D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\ChinarDialysisCenter.DbAccess.pdb
 D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\ChinarDialysisCenter.Domain.pdb
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\System.Text.Json.dll
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Server\obj\Debug\net6.0\ChinarDialysisCenter.Server.sourcelink.json
