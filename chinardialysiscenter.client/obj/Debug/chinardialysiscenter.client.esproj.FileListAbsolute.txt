@@ -1,0 +1,2 @@
+D:\My Work\ChinarDialysisCenter\chinardialysiscenter.client\obj\Debug\chinardialysiscenter.client.esproj.CoreCompileInputs.cache
+D:\My Work\ChinarDialysisCenterRepo\chinardialysiscenter.client\obj\Debug\chinardialysiscenter.client.esproj.CoreCompileInputs.cache
