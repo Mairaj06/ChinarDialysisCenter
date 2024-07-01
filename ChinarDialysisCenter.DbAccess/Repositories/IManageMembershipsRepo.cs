@@ -9,6 +9,9 @@ namespace ChinarDialysisCenter.DbAccess.Repositories
 {
     public interface IManageMembershipsRepo
     {
+        Task<List<Membership>> GetMemberships();
         Task<bool> AddMembership(Membership membership);
+        Task<bool> UpdateMembership(Membership membership);
+        Task<bool> DeleteMembership(Membership membership);
     }
 }

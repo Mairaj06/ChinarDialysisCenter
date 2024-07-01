@@ -6,25 +6,25 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiserviceService {
-  readonly apiUrl = 'http://localhost:50306/api/';
+  readonly apiUrl = 'https://localhost:7122/api/';
   constructor(private http: HttpClient) { }
 
   // Department
   getMembersList(): Observable<any[]> {
-    return this.http.get<any[]>(this.apiUrl + 'membership/GetMembers');
+    return this.http.get<any[]>(this.apiUrl + 'GetMembers');
   }
   addMembership(member: any): Observable<any> {
     const httpOptions = { headers: new HttpHeaders({ 'Content-Type': 'application/json' }) };
-    return this.http.post<any>(this.apiUrl + 'membership/AddMember', member, httpOptions);
+    return this.http.post<any>(this.apiUrl + 'AddMember', member, httpOptions);
   }
 
   updateMembership(member: any): Observable<any> {
     const httpOptions = { headers: new HttpHeaders({ 'Content-Type': 'application/json' }) };
-    return this.http.put<any>(this.apiUrl + 'membership/UpdateMember/', member, httpOptions);
+    return this.http.put<any>(this.apiUrl + 'UpdateMember/', member, httpOptions);
   }
 
   deleteMembership(memberId: number): Observable<number> {
     const httpOptions = { headers: new HttpHeaders({ 'Content-Type': 'application/json' }) };
-    return this.http.delete<number>(this.apiUrl + 'membership/DeleteMember/' + memberId, httpOptions);
+    return this.http.delete<number>(this.apiUrl + 'DeleteMember/' + memberId, httpOptions);
   }
 }

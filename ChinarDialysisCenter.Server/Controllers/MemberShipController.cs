@@ -2,6 +2,7 @@
 using ChinarDialysisCenter.Domain;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics.Metrics;
 
 namespace ChinarDialysisCenter.Server.Controllers
 {
@@ -14,31 +15,22 @@ namespace ChinarDialysisCenter.Server.Controllers
         {
             this.manageMemberships = manageMemberships;
         }
-        [Route("GetMembers")]
+        [Route("api/GetMembers")]
         [HttpGet]
         // GET: MemberShipController
-        public ActionResult GetMembers()
+        public async Task<IActionResult> GetMembers()
         {
-            return Ok();
+            var result = await manageMemberships.GetMemberships();
+            return Ok(result);
         }
-
-        //// GET: MemberShipController/Details/5
-        //public ActionResult Details(int id)
-        //{
-        //    return Ok();
-        //}
-
-        //// GET: MemberShipController/Create
-        //public ActionResult Create()
-        //{
-        //    return Ok();
-        //}
-
-        [Route("AddMember")]
+        [Route("api/AddMember")]
         [HttpPost]
         //[ValidateAntiForgeryToken]
-        public async Task<IActionResult> Post(Membership member)
+        public async Task<IActionResult> AddMember(Membership member)
         {
+            // Uncomment after implementing login mechanisim
+            //member.CreatedBy = loggedinuser.Id;
+            member.IsActive = true;
             bool result = await manageMemberships.AddMemberShip(member);
             if (!result)
             {
@@ -46,47 +38,22 @@ namespace ChinarDialysisCenter.Server.Controllers
             }
             return Ok(result);
         }
-
-        // GET: MemberShipController/Edit/5
-        //public ActionResult Edit(int id)
-        //{
-        //    return Ok();
-        //}
-
-        //// POST: MemberShipController/Edit/5
-        //[HttpPost]
+        [Route("api/UpdateMember")]
+        [HttpPut]
         //[ValidateAntiForgeryToken]
-        //public ActionResult Edit(int id, IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return Ok();
-        //    }
-        //}
+        public async Task<IActionResult> UpdateMember(Membership member)
+        {
+            // Uncomment after implementing login mechanisim
+            //member.CreatedBy = loggedinuser.Id;
+            member.IsActive = true;
+            bool result = await manageMemberships.UpdateMemberShip(member);
+            if (!result)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Something Went Wrong");
+            }
+            return Ok(result);
+        }
 
-        //// GET: MemberShipController/Delete/5
-        //public ActionResult Delete(int id)
-        //{
-        //    return Ok();
-        //}
 
-        //// POST: MemberShipController/Delete/5
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Delete(int id, IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return Ok();
-        //    }
-        //}
     }
 }

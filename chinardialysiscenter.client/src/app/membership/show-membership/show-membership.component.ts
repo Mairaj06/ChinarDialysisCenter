@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiserviceService } from '../../../../src/app/apiservice.service';
 
+
 @Component({
   selector: 'app-show-membership',
   templateUrl: './show-membership.component.html',
@@ -24,7 +25,7 @@ export class ShowMembershipComponent implements OnInit {
 
   addClick() {
     this.member = {
-      MemberId: 0,
+      Id: 0,
       FirstName: "",
       LastName: "",
       MobileNo: "",
@@ -45,8 +46,9 @@ export class ShowMembershipComponent implements OnInit {
 
   deleteClick(item: any) {
     if (confirm('Are you sure??')) {
-      this.service.deleteMembership(item.MemberId).subscribe((data: any) => {
+      this.service.deleteMembership(item.Id).subscribe((data: any) => {
         alert(data.toString());
+        //this.toastr.success("Deleted successfully");
         this.refreshMembersList();
       })
     }
