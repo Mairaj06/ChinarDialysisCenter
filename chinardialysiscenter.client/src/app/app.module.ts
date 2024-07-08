@@ -9,13 +9,19 @@ import { MembershipComponent } from './membership/membership.component';
 import { AddEditMembershipComponent } from './membership/add-edit-membership/add-edit-membership.component';
 import { ShowMembershipComponent } from './membership/show-membership/show-membership.component';
 import { ApiserviceService } from './apiservice.service';
+import { DonationComponent } from './donation/donation.component';
+import { AddEditDonationComponent } from './donation/add-edit-donation/add-edit-donation.component';
+import { ShowDonationComponent } from './donation/show-donation/show-donation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MembershipComponent,
     AddEditMembershipComponent,
-    ShowMembershipComponent
+    ShowMembershipComponent,
+    DonationComponent,
+    AddEditDonationComponent,
+    ShowDonationComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,

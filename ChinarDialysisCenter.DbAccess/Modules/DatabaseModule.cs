@@ -14,6 +14,7 @@ namespace ChinarDialysisCenter.DbAccess.Modules
         protected override void Load(ContainerBuilder containerBuilder)
         {
             containerBuilder.RegisterType<ManageMembershipsRepo>().As<IManageMembershipsRepo>().InstancePerDependency();
+            containerBuilder.RegisterType<ManageDonationsRepo>().As<IManageDonationsRepo>().InstancePerDependency();
         }
     }
 }
