@@ -7,15 +7,4 @@
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\chinardialysiscenter.client\browser\</BuildOutputFolder>
   </PropertyGroup>
-  <ItemGroup>
-    <None Include="src\template_data\.github\codeql\codeql-config.yml" />
-    <None Include="src\template_data\.github\CONTRIBUTING.md" />
-    <None Include="src\template_data\.github\dependabot.yml" />
-    <None Include="src\template_data\.github\ISSUE_TEMPLATE\bug-report-for-adminlte-v3.1-x.md" />
-    <None Include="src\template_data\.github\ISSUE_TEMPLATE\feature-request-for-adminlte-v4-x.md" />
-    <None Include="src\template_data\.github\workflows\ci.yml" />
-    <None Include="src\template_data\.github\workflows\codeql.yml" />
-    <None Include="src\template_data\.github\workflows\docs.yml" />
-    <None Include="src\template_data\.github\workflows\lint.yml" />
-  </ItemGroup>
 </Project>

@@ -33,7 +33,11 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/template_data"
+              "src/assets/template_data",
+              "src/add_member_collection.html",
+              "src/add_donor_collection.html",
+              "src/agent_registration.html",
+              "src/member_registration.html"
             ],
             "styles": [
               "src/styles.css"
