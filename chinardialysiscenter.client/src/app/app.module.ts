@@ -11,7 +11,7 @@ import { ShowMembershipComponent } from './membership/show-membership/show-membe
 import { ApiserviceService } from './apiservice.service';
 import { DonationComponent } from './donation/donation.component';
 import { AddEditDonationComponent } from './donation/add-edit-donation/add-edit-donation.component';
-import { ShowDonationComponent } from './donation/show-donation/show-donation.component';
+import { ShowMembersDonationComponent } from './donation/show-donation/show-donation.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,7 @@ import { ShowDonationComponent } from './donation/show-donation/show-donation.co
     ShowMembershipComponent,
     DonationComponent,
     AddEditDonationComponent,
-    ShowDonationComponent
+    ShowMembersDonationComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
