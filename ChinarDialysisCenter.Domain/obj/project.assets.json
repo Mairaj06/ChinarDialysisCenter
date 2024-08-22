@@ -8,25 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mairaj.minhas\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\fast\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My Work\\ChinarDialysisCenter\\ChinarDialysisCenter.Domain\\ChinarDialysisCenter.Domain.csproj",
+      "projectUniqueName": "E:\\ChinarCode\\ChinarDialysisCenter\\ChinarDialysisCenter.Domain\\ChinarDialysisCenter.Domain.csproj",
       "projectName": "ChinarDialysisCenter.Domain",
-      "projectPath": "D:\\My Work\\ChinarDialysisCenter\\ChinarDialysisCenter.Domain\\ChinarDialysisCenter.Domain.csproj",
-      "packagesPath": "C:\\Users\\mairaj.minhas\\.nuget\\packages\\",
-      "outputPath": "D:\\My Work\\ChinarDialysisCenter\\ChinarDialysisCenter.Domain\\obj\\",
+      "projectPath": "E:\\ChinarCode\\ChinarDialysisCenter\\ChinarDialysisCenter.Domain\\ChinarDialysisCenter.Domain.csproj",
+      "packagesPath": "C:\\Users\\fast\\.nuget\\packages\\",
+      "outputPath": "E:\\ChinarCode\\ChinarDialysisCenter\\ChinarDialysisCenter.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mairaj.minhas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fast\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -36,8 +34,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.intelligize.net/nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -49,11 +46,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -75,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
