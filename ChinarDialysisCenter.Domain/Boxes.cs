@@ -16,4 +16,9 @@ namespace ChinarDialysisCenter.Domain
         public int UpdatedBy { get; set; }
 
     }
+    public class BoxesView : Boxes
+    {
+        public string CreatedByName { get; set; }
+        public string UpdatedByName { get; set; }
+    }
 }

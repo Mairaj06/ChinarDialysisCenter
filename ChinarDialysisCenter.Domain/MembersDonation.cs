@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChinarDialysisCenter.Domain
 {
-    public class MembersDonations
+    public class MembersDonation
     {
         public int Id { get; set; }
         public int DonatedBy { get; set; }
@@ -14,9 +14,17 @@ namespace ChinarDialysisCenter.Domain
         public DateTime DonationDate { get; set; }
         public decimal Amount {  get; set; }
         public int DonationSource {  get; set; }
-        public int DonationReceipt{ get; set; }
+        public string? DonationReceipt{ get; set; }
         public int CreatedBy { get; set; }
         public int UpdatedBy { get; set; }
 
+    }
+    public class MembersDonationView : MembersDonation
+    {
+        public string DonatedByName { get; set; }
+        public string ReceivedByName { get; set; }
+        public string DonationSourceName { get; set; }
+        public string CreatedByName { get; set; }
+        public string UpdatedByName { get; set; }
     }
 }

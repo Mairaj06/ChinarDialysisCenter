@@ -16,4 +16,11 @@ namespace ChinarDialysisCenter.Domain
         public int CreatedBy { get; set; }
         public int UpdatedBy { get; set; }
     }
+    public class BoxDonationView : BoxDonation
+    {
+        public int BoxName { get; set; }
+        public int CollectedByName { get; set; }
+        public int CreatedByName { get; set; }
+        public int UpdatedByName { get; set; }
+    }
 }
