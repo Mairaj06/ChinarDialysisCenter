@@ -28,3 +28,21 @@ D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\r
 D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ChinarDialysisCenter.Business.pdb
 D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ref\ChinarDialysisCenter.Business.dll
 D:\My Work\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ChinarDialysisCenter.Business.sourcelink.json
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\bin\Debug\net6.0\ChinarDialysisCenter.Business.deps.json
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\bin\Debug\net6.0\ChinarDialysisCenter.Business.dll
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\bin\Debug\net6.0\ChinarDialysisCenter.Business.pdb
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\bin\Debug\net6.0\ChinarDialysisCenter.DbAccess.dll
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\bin\Debug\net6.0\ChinarDialysisCenter.Domain.dll
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\bin\Debug\net6.0\ChinarDialysisCenter.DbAccess.pdb
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\bin\Debug\net6.0\ChinarDialysisCenter.Domain.pdb
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ChinarDialysisCenter.Business.csproj.AssemblyReference.cache
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ChinarDialysisCenter.Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ChinarDialysisCenter.Business.AssemblyInfoInputs.cache
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ChinarDialysisCenter.Business.AssemblyInfo.cs
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ChinarDialysisCenter.Business.csproj.CoreCompileInputs.cache
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ChinarDialysisCenter.Business.sourcelink.json
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ChinarDialysisCenter.Business.csproj.CopyComplete
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ChinarDialysisCenter.Business.dll
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\refint\ChinarDialysisCenter.Business.dll
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ChinarDialysisCenter.Business.pdb
+E:\ChinarCode\ChinarDialysisCenter\ChinarDialysisCenter.Business\obj\Debug\net6.0\ref\ChinarDialysisCenter.Business.dll
